@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const BASE_URL = 'https://pixabay.com/api/';
-const API_KEY = '42823339-1ca31e44a0bb15197c26bd0aanpm install axios izitoast simplelightbox';
+const API_KEY = '42823339-1ca31e44a0bb15197c26bd0aa';
 
 export function getImagesByQuery(query) {
   return axios

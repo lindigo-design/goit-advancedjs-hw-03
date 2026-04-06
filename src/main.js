@@ -1,15 +1,14 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import { getImagesByQuery } from './pixabay-api';
+import { getImagesByQuery } from './js/pixabay-api';
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './render-functions';
-
-import 'simplelightbox/dist/simple-lightbox.min.css';
+} from './js/render-functions';
 
 const formEl = document.querySelector('.form');
 
